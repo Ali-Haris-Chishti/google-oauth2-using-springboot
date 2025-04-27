@@ -1,6 +1,6 @@
-# login-with  email ,password and Google credentials.
-Here is my first Springboot api . 
+# login using email, password or Google credentials.
+It is a baisc project which uses google auth and jwt dependencies for authentication and authorization
 Depencies: 
 ---oauth2 to manage login with Google.
----springsecurity to manage security and provide  a simple default login
----jwt for encryption,generate secret keys and token
+---spring security for basic auth
+---jwt dependency for generating token and validating requests through it
